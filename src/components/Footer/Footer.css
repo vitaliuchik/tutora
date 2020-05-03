@@ -1,0 +1,40 @@
+.footer-container {
+    position: absolute;
+    bottom: 0;
+    /* margin-bottom: 0; */
+    height: 140px;
+    width: 100%;
+    /* background-color: #1f1f1f; */
+}
+
+.footer-button-container {
+    background-color: #333333;
+    height: 98px;
+    width: 100%;
+    text-align: center;    
+    /* margin: 0 auto; */
+    /* border-radius: 20px 20px 0 0; */
+}
+
+.footer-button-container>div {
+    display: inline-block;
+    position: relative;
+    bottom: -25px;
+    padding: 0 20px;
+}
+
+
+.copyright {
+    position: absolute;
+    background-color: #1f1f1f;
+    height: 42px;
+    width: 100%;
+}
+
+.copyright>p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.664);
+    font-style: italic;
+    font-size: 14px;
+}
+
