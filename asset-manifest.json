@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tutora/static/css/main.5a19b1cb.chunk.css",
+    "main.js": "/tutora/static/js/main.584545ee.chunk.js",
+    "main.js.map": "/tutora/static/js/main.584545ee.chunk.js.map",
+    "runtime-main.js": "/tutora/static/js/runtime-main.16e5f43c.js",
+    "runtime-main.js.map": "/tutora/static/js/runtime-main.16e5f43c.js.map",
+    "static/js/2.2639908c.chunk.js": "/tutora/static/js/2.2639908c.chunk.js",
+    "static/js/2.2639908c.chunk.js.map": "/tutora/static/js/2.2639908c.chunk.js.map",
+    "index.html": "/tutora/index.html",
+    "precache-manifest.b14cdb673c71c4a73145dac4e501e4a8.js": "/tutora/precache-manifest.b14cdb673c71c4a73145dac4e501e4a8.js",
+    "service-worker.js": "/tutora/service-worker.js",
+    "static/css/main.5a19b1cb.chunk.css.map": "/tutora/static/css/main.5a19b1cb.chunk.css.map",
+    "static/js/2.2639908c.chunk.js.LICENSE.txt": "/tutora/static/js/2.2639908c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.16e5f43c.js",
+    "static/js/2.2639908c.chunk.js",
+    "static/css/main.5a19b1cb.chunk.css",
+    "static/js/main.584545ee.chunk.js"
+  ]
+}
