@@ -1,0 +1,15 @@
+.card-container {
+    width: 200px;
+    margin: 20px 30px;
+    display: inline-block;
+}
+
+#tutor-name {
+    margin: 0;
+    text-align: left;
+}
+
+#tutor-description {
+    text-align: left;
+}
+
