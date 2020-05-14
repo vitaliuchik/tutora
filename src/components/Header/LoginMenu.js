@@ -1,8 +1,9 @@
 import React from 'react'
 import './Header.css'
 
-import {Menu, MenuItem, IconButton} from '@material-ui/core'
+import {Menu, IconButton} from '@material-ui/core'
 import {AccountCircle} from '@material-ui/icons'
+import ModalContainer from '../Modal/ModalContainer'
 
 function LoginMenu() {
     const [anchorEl, setAnchorEl] = React.useState(null)
@@ -20,9 +21,10 @@ function LoginMenu() {
             <IconButton className="button" id="login-button" aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
                 <AccountCircle fontSize="large"></AccountCircle>
             </IconButton>
-            <Menu id="simple-menu" anchorEl={anchorEl} keepMounted open={Boolean(anchorEl)} onClose={handleClose}>
-            <MenuItem >Log In</MenuItem>
-            <MenuItem >Sign Up</MenuItem>
+            <Menu id="simple-menu" anchorEl={anchorEl} keepMounted open={Boolean(anchorEl)} onClose={handleClose} onClick={handleClose}>
+            <ModalContainer label="Log In" type="login"></ModalContainer>
+            <ModalContainer label="Sign Up" type="signup"></ModalContainer>
+            
             </Menu>
         </div>
     )

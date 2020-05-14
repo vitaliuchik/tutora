@@ -4,12 +4,12 @@
     display: inline-block;
 }
 
-#tutor-name {
+.tutor-name {
     margin: 0;
     text-align: left;
 }
 
-#tutor-description {
+.tutor-description {
     text-align: left;
 }
 

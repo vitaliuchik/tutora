@@ -17,8 +17,8 @@ function TutorCard(props) {
                 >
                 </CardMedia>
                 <CardContent>
-                    <h1 id="tutor-name">{props.tutorInfo.name}</h1>
-                    <p id="tutor-description">{props.tutorInfo.description}</p>
+                    <h1 className="tutor-name">{props.tutorInfo.name}</h1>
+                    <p className="tutor-description">{props.tutorInfo.description}</p>
                 </CardContent>
             </CardActionArea>
             <CardActions>
