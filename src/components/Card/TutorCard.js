@@ -18,12 +18,14 @@ function TutorCard(props) {
                 </CardMedia>
                 <CardContent>
                     <h1 className="tutor-name">{props.tutorInfo.name}</h1>
-                    <p className="tutor-description">{props.tutorInfo.description}</p>
+                    <p className="tutor-description">Subject: {props.tutorInfo.subject}</p>
+                    <p className="tutor-description">Location: {props.tutorInfo.city}</p>
+                    <p className="price"><b>{props.tutorInfo.price}</b>grn/h</p>
                 </CardContent>
             </CardActionArea>
             <CardActions>
                 <Button size="small" color="primary">
-                    More info
+                    Contact
                 </Button>
             </CardActions>
         </Card>
