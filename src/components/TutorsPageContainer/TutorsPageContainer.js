@@ -22,9 +22,9 @@ function TutorsPageContainer() {
 
     return (
         <div className="tutors-container container">
-            {tutorsInfo.map((tutorInfo, key) => {
-                return <TutorCard key={key+1} tutorInfo={tutorInfo}></TutorCard>
-            })}           
+            {tutorsInfo.map((tutorInfo, key) => 
+            (<TutorCard key={key+1} tutorInfo={tutorInfo}></TutorCard>)
+            )}           
         </div>
     )
 }
