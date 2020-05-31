@@ -1,5 +1,6 @@
 .card-container {
-    width: 200px;
+    width: 240px;
+    height: 384px;
     margin: 20px 30px;
     display: inline-block;
 }
@@ -13,3 +14,9 @@
     text-align: left;
 }
 
+.price {
+    position: absolute;
+    right: 20px;
+    top: 290px;
+    font-style: italic;
+}

@@ -13,10 +13,7 @@ function LoginModal() {
                 <label for="psw" className="label-input"><b>Password</b></label>
                 <input type="password" placeholder="Enter Password" name="psw" required />
 
-                <button type="submit">Login</button>
-                <label className="label-submit">
-                    <input type="checkbox" checked="checked" name="remember" /> Remember me
-                </label>
+                <button type="submit">Log In</button>               
             </form> 
         </div>
     )

@@ -10,7 +10,7 @@ function Footer() {
         <div className="footer-container">
             <div className="footer-button-container">                
                 <div><IconButton className="icon"><Facebook /></IconButton></div>
-                <div><IconButton className="icon"><GitHub /></IconButton></div>
+                <div><a href="https://github.com/vitaliuchik/tutora"><IconButton className="icon"><GitHub /></IconButton></a></div>
                 <div><IconButton className="icon"><Telegram /></IconButton></div>
                 <div><IconButton className="icon"><Twitter /></IconButton></div>
                 <div><IconButton className="icon"><YouTube /></IconButton></div>

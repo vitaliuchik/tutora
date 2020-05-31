@@ -1,17 +1,6 @@
 .modal-container {
     height: 320px;
-    width: 450px;
-    
-}
-
-input[type=text], input[type=password], input[type=email] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    border-radius: 20px;
+    width: 450px; 
 }
 
 .label-input {
@@ -25,4 +14,28 @@ input[type=text], input[type=password], input[type=email] {
 
 .button:hover {
     background-color: #4d4d4d !important;
+}
+
+button[type=submit] {
+    background-color: #a19994b2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+
+button[type=submit]:hover {
+    background-color: #b8aea8a2;
+  }
+
+.modal-container input[type=text], .modal-container  input[type=password], .modal-container input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 20px;
 }
